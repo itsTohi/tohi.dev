@@ -1,0 +1,55 @@
+body {
+    background-color: #36393E;
+}
+
+.main {
+    display: flex;
+     border-radius: 5%;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #232326;
+    box-shadow: 0 0 10px rgba(21, 19, 19, 0.25);
+    width: 35%;
+    overflow: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pfp {
+    border-radius: 50%;
+    float: left;
+    width: 25%;
+    height: 25%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-10%, 35%);
+}
+
+.text-container {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.link-container {
+    font-size: 30px;
+    transition: 0.4s ease-in-out, color 0s;
+    margin: 35px 5px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.redir {
+    text-decoration: none;
+    text-decoration-color: #ffffff;
+    text-decoration-line: none;
+    color: #ffffff;
+    padding: 10px 16px;
+    background: #1e1f1d;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
